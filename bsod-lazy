@@ -1,0 +1,13 @@
+#!/bin/bash
+sleep 30
+
+if command -v eog &> /dev/null
+then
+	eog --fullscreen /etc/bsod-lazy/bsod.png
+else
+	printf "Can not load BSDO Lazy screen. eog command not found"
+fi
+
+sleep 40
+
+reboot

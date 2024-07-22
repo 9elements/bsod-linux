@@ -1,0 +1,11 @@
+[Unit]
+Description=BSOD-supported lazy service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bsod-lazy
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=default.target
+
