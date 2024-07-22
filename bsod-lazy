@@ -5,7 +5,7 @@ if command -v eog &> /dev/null
 then
 	eog --fullscreen /etc/bsod-lazy/bsod.png
 else
-	printf "Can not load BSDO Lazy screen. eog command not found"
+	printf "Can not load BSOD Lazy screen. eog command not found"
 fi
 
 sleep 40
